@@ -1,1 +1,10 @@
-Welcome to my React Frontend Components Repository! Here you'll find a collection of handy React components I've built for different frontend applications. From user authentication features like login and registration to displaying friends' cards, soccer player cards with filtering, and a movies application for browsing, adding, and editing movies, these components cover a range of needs. They've helped me simplify my frontend development process, and I hope they'll be just as useful for you too!
+# Welcome to my React Frontend Components Repository!
+
+This collection features a range of React components designed for various front-end applications. Included are features such as:
+
+- 🛡️ User authentication (login, registration).
+- 🧑‍🤝‍🧑 Displaying friends' cards.
+- ⚽ Soccer player cards with filtering.
+- 🎬 Movies application for browsing, adding, and editing movies.
+
+Feel free to explore and leverage these components as needed.
