@@ -3,7 +3,7 @@ import debug from "sabio-debug";
 import PropTypes from "prop-types";
 
 function FriendCard(props) {
-  //   console.log("Friend", props.friend);;
+  //   console.log("Friend", props.friend);
   const _logger = debug.extend("FriendCard");
   const aFriend = props.friend;
   _logger("aFriend", props);
