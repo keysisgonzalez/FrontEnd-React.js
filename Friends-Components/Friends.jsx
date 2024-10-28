@@ -45,7 +45,7 @@ function Friends() {
     console.error("onGetFriendsError :", error);
   };
 
-  //---------DELETING A FRIEND-----------
+  //--------DELETING A FRIEND---------
   const onDeleteRequested = useCallback((myFriend, eventObj) => {
     console.log("Click Handler", myFriend.id, { myFriend, eventObj });
 

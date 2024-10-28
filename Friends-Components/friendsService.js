@@ -46,7 +46,7 @@ friendsService.addFriend = (payload) => {
 };
 
 friendsService.updateFriend = (id, payload) => {
-  // console.log("Updating friend by ID is executing...");
+  //console.log("Updating friend by ID is executing...");
 
   const config = {
     method: "PUT",
