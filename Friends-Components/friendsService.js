@@ -17,7 +17,7 @@ friendsService.getFriends = (pageIndex, pageSize) => {
 };
 
 friendsService.deleteFriend = (id) => {
-  // console.log("Friend Delete ID is executing...", id);
+  //console.log("Friend Delete ID is executing...", id);
   const config = {
     method: "DELETE",
     url: `${friendsService.endpoint}/${id}`,
@@ -32,7 +32,7 @@ friendsService.deleteFriend = (id) => {
 
 
 friendsService.addFriend = (payload) => {
-  // console.log("PAYLOAD", payload);
+  //console.log("PAYLOAD", payload);
   const config = {
     method: "POST",
     url: friendsService.endpoint,

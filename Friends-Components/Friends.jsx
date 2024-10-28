@@ -21,7 +21,7 @@ function Friends() {
   const onGetFriendsSuccess = (response) => {
     console.log("onGetFriendsSuccess: ", response);
     let friendsArray = response.data.item.pagedItems;
-    // console.log("friendsArray :", { friendsArray });
+    // console.log("friendsArray:", { friendsArray });
 
     setFriendsDataObj((prevState) => {
       const friendsData = { ...prevState };
@@ -45,7 +45,7 @@ function Friends() {
     console.error("onGetFriendsError :", error);
   };
 
-  //----------DELETING A FRIEND------------
+  //---------DELETING A FRIEND-----------
   const onDeleteRequested = useCallback((myFriend, eventObj) => {
     console.log("Click Handler", myFriend.id, { myFriend, eventObj });
 

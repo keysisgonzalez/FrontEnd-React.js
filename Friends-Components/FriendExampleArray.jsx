@@ -1,8 +1,6 @@
 import React, { useState, useEffect } from "react";
 import friendsService from "../../services/friendsService";
 
-// yarn test-friends-static-render
-
 function Friends() {
   const [arrayOfFriends] = useState([]);
 
@@ -99,12 +97,8 @@ function Friends() {
             alt="I love Code"
           />
           <div className="card-body">
-            <h5 className="card-title">
-              {aPerson.title}
-            </h5>
-            <p className="card-text">
-            {aPerson.summary}
-            </p>
+            <h5 className="card-title">{aPerson.title}</h5>
+            <p className="card-text">{aPerson.summary}</p>
             <button className="link-btn btn btn-primary">Go somewhere</button>
           </div>
         </div>
@@ -121,8 +115,8 @@ function Friends() {
       <h1>Friends</h1>
 
       <div className="conatiner">
-      <h3>Rendering</h3>
-      <div className="row">{friendsComponents.map(mapPerson)}</div>
+        <h3>Rendering</h3>
+        <div className="row">{friendsComponents.map(mapPerson)}</div>
       </div>
     </React.Fragment>
   );

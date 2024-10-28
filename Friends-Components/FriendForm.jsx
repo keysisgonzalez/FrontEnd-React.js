@@ -16,11 +16,11 @@ function FriendForm() {
   });
 
   const onFormChange = (e) => {
-    // console.log("onAddFormChange", e);
+    //console.log("onAddFormChange", e);
     const newValue = e.target.value;
     const nameOfField = e.target.name;
 
-    // console.log(newValue);
+    //console.log(newValue);
 
     setFriendData((prevState) => {
       const newState = { ...prevState };
@@ -30,7 +30,7 @@ function FriendForm() {
     });
   };
 
-  //--------ADDING A FRIEND----------
+  //--------ADDING A FRIEND---------
   const onSubmitClicked = (e) => {
     e.preventDefault();
 
